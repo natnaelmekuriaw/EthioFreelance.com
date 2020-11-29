@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="40" viewBox="0 0 43 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1161" data-name="Rectangle 1161" width="43" height="40" transform="translate(223 3849)" fill="#26486d" stroke="#26486d" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(-223 -3849)" clip-path="url(#clip-path)">
+    <g id="iconfinder_605507_brush_color_edit_editing_paintbrush_icon" transform="translate(219.326 3844.001)">
+      <path id="Path_11467" data-name="Path 11467" d="M43.34,26.494a3.105,3.105,0,0,1,0,4.391l-6.324,6.324a3.105,3.105,0,0,1-4.391,0L12.863,17.448a3.105,3.105,0,0,1,0-4.391l6.324-6.324a3.105,3.105,0,0,1,4.391,0Z" fill="rgba(0,0,0,0)" stroke="#26486d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.553"/>
+      <line id="Line_73" data-name="Line 73" x1="0.835" y2="0.835" transform="translate(16.431 15.031)" fill="none" stroke="#26486d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.553"/>
+      <line id="Line_74" data-name="Line 74" x1="4.206" y2="4.206" transform="translate(19.736 8.156)" fill="none" stroke="#26486d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.553"/>
+      <path id="Path_11468" data-name="Path 11468" d="M40.167,34.3l1.252,1.252a1.553,1.553,0,0,1,0,2.2L38.663,40.5a5.434,5.434,0,0,1-7.685,0L21.371,30.9a1.553,1.553,0,0,0-2.2,0l-1.647,1.647" fill="rgba(0,0,0,0)" stroke="#26486d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.553"/>
+      <path id="Path_11469" data-name="Path 11469" d="M16.555,37.965l-5.871,5.852a1.553,1.553,0,0,1-2.194,0L6.553,41.877a1.553,1.553,0,0,1,0-2.2l5.946-5.92a3.105,3.105,0,0,1,2.168-.9l2.6-.02.189,2.715A3.105,3.105,0,0,1,16.555,37.965Z" fill="rgba(0,0,0,0)" stroke="#26486d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.553"/>
+    </g>
+  </g>
+</svg>

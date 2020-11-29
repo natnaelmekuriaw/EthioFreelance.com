@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="40" viewBox="0 0 43 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1157" data-name="Rectangle 1157" width="43" height="40" transform="translate(223 3595)" fill="#26486d" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-223 -3595)" clip-path="url(#clip-path)">
+    <g id="iconfinder_352016_android_icon" transform="translate(224.501 3595.002)">
+      <path id="Path_11443" data-name="Path 11443" d="M0,0H40V40H0Z" fill="none"/>
+      <path id="Path_11444" data-name="Path 11444" d="M10,30a1.671,1.671,0,0,0,1.667,1.667h1.667V37.5a2.5,2.5,0,0,0,5,0V31.665h3.333V37.5a2.5,2.5,0,0,0,5,0V31.665h1.667A1.671,1.671,0,0,0,30,30V13.333H10ZM5.833,13.333a2.5,2.5,0,0,0-2.5,2.5V27.5a2.5,2.5,0,1,0,5,0V15.833A2.5,2.5,0,0,0,5.833,13.333Zm28.332,0a2.5,2.5,0,0,0-2.5,2.5V27.5a2.5,2.5,0,1,0,5,0V15.833A2.5,2.5,0,0,0,34.165,13.333ZM25.882,3.6l2.175-2.175A.831.831,0,0,0,26.882.25L24.415,2.708a9.9,9.9,0,0,0-8.858.008L13.083.242a.831.831,0,0,0-1.175,1.175L14.091,3.6A10.011,10.011,0,0,0,10,11.666H30A9.965,9.965,0,0,0,25.882,3.6ZM16.666,8.333H15V6.666h1.667Zm8.333,0H23.332V6.666H25Z" fill="#26486d"/>
+    </g>
+  </g>
+</svg>
