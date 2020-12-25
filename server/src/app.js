@@ -5,7 +5,7 @@ const passport = require('passport');
 //const user = require('./model/User');
 //const auth = require('./config/hellocash')
 var cors = require('cors')
-//require('dotenv').config()
+require('dotenv').config()
 
 
 
