@@ -7,7 +7,11 @@ const passport = require('passport');
 var cors = require('cors')
 //require('dotenv').config()
 
+
+
 // console.log(require('dotenv').config())
+
+
 
 const app = express()
 app.use(express.json());
@@ -30,6 +34,8 @@ require('./auth/auth')
 //     cb(null, `files/admin-${file.fieldname}-${Date.now()}.${ext}`)
 //   }
 // })
+
+
 
 app.use(cors())
 
@@ -72,8 +78,8 @@ const authent = require('./routes/auth');
 app.use('/api', routes);
 app.use('/mycallbackhandler', webhook);
 app.use('/api/job', jobRoutes);
-/* app.use('/api/profile', profile);
- app.use('/api', secureRoute);*/
+// app.use('/api/profile', profile);
+// app.use('/api', secureRoute);
 app.use('/api', accountRoute);
 app.use('/api/', jobApplicantRoute);
 app.use('/api', adminRoute);
