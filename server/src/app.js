@@ -78,8 +78,8 @@ const authent = require('./routes/auth');
 app.use('/api', routes);
 app.use('/mycallbackhandler', webhook);
 app.use('/api/job', jobRoutes);
-// app.use('/api/profile', profile);
-// app.use('/api', secureRoute);
+/* app.use('/api/profile', profile);
+ app.use('/api', secureRoute);*/
 app.use('/api', accountRoute);
 app.use('/api/', jobApplicantRoute);
 app.use('/api', adminRoute);
