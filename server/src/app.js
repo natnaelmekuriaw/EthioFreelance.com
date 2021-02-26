@@ -98,8 +98,8 @@ app.use('/api', authent)
  Plug in the JWT strategy as a middleware so only verified users can access this route.
  app.use('/user', passport.authenticate('jwt', { session: false }), secureRoute);
 
- app.use('/api/user', passport.authenticate('jwt', { session: false }), secureRoute);
- app.use('/api/job', jobRoutes);
+// app.use('/api/user', passport.authenticate('jwt', { session: false }), secureRoute);
+// app.use('/api/job', jobRoutes);
 
 app.listen(process.env.PORT || 8081, () =>
   console.log(`ethiofreelance app listening on port 8081`),
