@@ -7,11 +7,7 @@ const passport = require('passport');
 var cors = require('cors')
 //require('dotenv').config()
 
-
-
 // console.log(require('dotenv').config())
-
-
 
 const app = express()
 app.use(express.json());
