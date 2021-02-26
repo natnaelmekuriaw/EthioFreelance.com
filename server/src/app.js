@@ -28,10 +28,7 @@ require('./auth/auth')
 //   filename: (req, file, cb) => {
 //     const ext = file.mimetype.split('/')[1]
 //     cb(null, `files/admin-${file.fieldname}-${Date.now()}.${ext}`)
-//   }
-// })
-
-
+//   } })
 
 app.use(cors())
 
