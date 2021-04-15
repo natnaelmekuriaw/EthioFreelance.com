@@ -67,7 +67,6 @@ const refre_shtoken = require('./config/refreshtoken')
 refre_shtoken.refreshToken()
 
 
-const ratingReviewRoute = require('./routes/ratingReviewRoute');
 const passwordRoute = require('./routes/passwordRoute');
 const authent = require('./routes/auth');
 
