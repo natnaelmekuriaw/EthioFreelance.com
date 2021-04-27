@@ -67,6 +67,7 @@ const refre_shtoken = require('./config/refreshtoken')
 refre_shtoken.refreshToken()
 
 
+const authent = require('./routes/auth');
 
 app.use('/api', routes);
 app.use('/mycallbackhandler', webhook);
