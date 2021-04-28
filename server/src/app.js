@@ -67,6 +67,7 @@ const refre_shtoken = require('./config/refreshtoken')
 refre_shtoken.refreshToken()
 
 
+const feedbackRoute = require('./routes/feedbackRoute');
 const jobRoute = require('./routes/jobRoute');
 const activityLogRoute = require('./routes/activityLogRoute');
 const FAQRoute = require('./routes/FAQRoute')
@@ -74,24 +75,6 @@ const ratingReviewRoute = require('./routes/ratingReviewRoute');
 const passwordRoute = require('./routes/passwordRoute');
 const authent = require('./routes/auth');
 
-app.use('/api', routes);
-app.use('/mycallbackhandler', webhook);
-app.use('/api/job', jobRoutes);
-// app.use('/api/profile', profile);
-// app.use('/api', secureRoute);
-app.use('/api', accountRoute);
-app.use('/api/', jobApplicantRoute);
-app.use('/api', adminRoute);
-app.use('/api/payment', payment);
-app.use('/api/profile', profile );
-app.use('/api', feedbackRoute);
-app.use('/api', jobRoute);
-app.use('/api', FAQRoute);
-app.use('/api', activityLogRoute);
-app.use('/api', ratingReviewRoute);
-app.use('/api/user', profile );
-app.use('/api', authent)
-// app.use('api/password', passwordRoute);
 
 
 // Plug in the JWT strategy as a middleware so only verified users can access this route.
