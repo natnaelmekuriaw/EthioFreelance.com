@@ -67,13 +67,6 @@ const refre_shtoken = require('./config/refreshtoken')
 refre_shtoken.refreshToken()
 
 
-const feedbackRoute = require('./routes/feedbackRoute');
-const jobRoute = require('./routes/jobRoute');
-const activityLogRoute = require('./routes/activityLogRoute');
-const FAQRoute = require('./routes/FAQRoute')
-const ratingReviewRoute = require('./routes/ratingReviewRoute');
-const passwordRoute = require('./routes/passwordRoute');
-const authent = require('./routes/auth');
 
 app.use('/api', routes);
 app.use('/mycallbackhandler', webhook);
