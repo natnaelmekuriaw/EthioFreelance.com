@@ -67,6 +67,7 @@ const refre_shtoken = require('./config/refreshtoken')
 refre_shtoken.refreshToken()
 
 
+const feedbackRoute = require('./routes/feedbackRoute');
 const jobRoute = require('./routes/jobRoute');
 const activityLogRoute = require('./routes/activityLogRoute');
 const FAQRoute = require('./routes/FAQRoute')
