@@ -75,7 +75,6 @@ const ratingReviewRoute = require('./routes/ratingReviewRoute');
 const passwordRoute = require('./routes/passwordRoute');
 const authent = require('./routes/auth');
 
-app.use('/mycallbackhandler', webhook);
 app.use('/api/job', jobRoutes);
 // app.use('/api/profile', profile);
 // app.use('/api', secureRoute);
