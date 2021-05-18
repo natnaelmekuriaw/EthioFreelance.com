@@ -75,6 +75,7 @@ const ratingReviewRoute = require('./routes/ratingReviewRoute');
 const passwordRoute = require('./routes/passwordRoute');
 const authent = require('./routes/auth');
 
+// app.use('/api/profile', profile);
 // app.use('/api', secureRoute);
 app.use('/api', accountRoute);
 app.use('/api/', jobApplicantRoute);
