@@ -75,6 +75,7 @@ const ratingReviewRoute = require('./routes/ratingReviewRoute');
 const passwordRoute = require('./routes/passwordRoute');
 const authent = require('./routes/auth');
 
+// app.use('api/password', passwordRoute);
 
 
 // Plug in the JWT strategy as a middleware so only verified users can access this route.
