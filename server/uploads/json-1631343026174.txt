@@ -1,0 +1,91 @@
+//user account creation
+{
+	"userID" : 1,
+	"firstName": "Latii",
+	"middleName":"Amenu",
+	"lastName": "Baissa",
+	"age":23,
+	"sex":"male",
+	"address":{
+		"country":"ETH",
+		"phoneNumber":9676385
+	},
+	"email":"amelatbay@gmail.com",
+	"password":"latiilatii",
+	"accountDateHistory":{
+		"accountCreatedDate":"10/11/2021",
+		"accountDeletedDate":"10/11/2021",
+		"accountInfoModifiedDate":"10/11/2021"
+	},
+"jobStatus": {
+        "totalJobsApplied":1,
+        "totalJobsDone":"1",
+        "totalPendingJobs":1,
+        "totalAssignedJobs":1
+    } 
+}
+
+// job
+
+
+{
+	"jobID":"j00001",
+	"postedEmpID":"00456",
+	"assignedFreelancerID":"00646",
+	"jobName":"Ecommerce website design",
+	"jobType":"contract",
+	"category":"Webdesign",
+	"sub_category":"ecommerce website",
+	"sample_name":"Shop AASTU",
+	"title": "can you develop my website",
+	"description": "my website is easy back end and front end and deliverd in one month ...",
+	"currency" :" EBIRR",
+	"budgetType":"contract",
+	"budget":"2000 birr",
+	"duration" : "2days",
+	
+	"skillLevel" :"High",
+	"jobDateHistory":{
+		"createdDate":"10/12/2021",
+		"deadlineDate":"10/12/2021",
+		"modifiedDate":"10/12/2021",
+		"closedDate":"10/12/2021"	
+	},
+		
+}
+
+
+// adding applicants
+
+{
+	"jobID": "456",
+	"appliedFreelancerID":"456879",
+	"bid":7821,
+	"proposal":" i will finish it in two days"
+}
+
+//insert new admin
+
+{
+	"adminID":"457",
+	"addedByAdminID":"31345",
+	"firstName": "y",
+	"middleName":"A",
+	"lastName": "b",
+	"age":20,
+	"sex":"female",
+	"email":"arhrhdfh@gmail.com",
+	"password":"adminlatii",
+	"addedDate":"04/10/2032"
+}
+
+//feadback post
+
+{
+	"email":"@gmail",
+	"message":"i need to create account"
+}
+
+
+//display: flex
+flex-flow: column
