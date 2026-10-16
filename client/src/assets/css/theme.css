@@ -1,0 +1,63 @@
+:root {
+  --ink: #102b30;
+  --muted: #526b70;
+  --surface: #ffffff;
+  --canvas: #f7faf8;
+  --surface-tint: #eaf6f0;
+  --line: #d9e8e2;
+  --accent: #087f6c;
+  --accent-dark: #056b5b;
+  --accent-soft: #dff5ea;
+  --nav: #102d33;
+  --focus: #4dc5a9;
+  --font-body: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --weight-body: 400;
+  --weight-medium: 600;
+  --weight-strong: 700;
+  --tracking-heading: -0.03em;
+  --tracking-label: 0.1em;
+  --leading-body: 1.65;
+  --leading-heading: 1.13;
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-form-title: clamp(1.55rem, 2.2vw, 1.8rem);
+  --text-section: clamp(2.1rem, 3.4vw, 3.25rem);
+  --text-hero: clamp(3.25rem, 5.5vw, 5.6rem);
+  --shadow: 0 18px 50px rgba(16, 43, 48, 0.09);
+  --shadow-hover: 0 24px 56px rgba(16, 43, 48, 0.14);
+  --radius-card: 20px;
+  --radius-control: 11px;
+  --page-width: 1320px;
+  --page-gutter: clamp(20px, 4vw, 48px);
+  --motion-fast: 180ms ease;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--canvas); color: var(--ink); font-family: var(--font-body); font-size: var(--text-base); font-weight: var(--weight-body); line-height: var(--leading-body); }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid var(--focus) !important; outline-offset: 3px; }
+button:disabled, [aria-disabled="true"] { cursor: not-allowed; }
+::selection { background: var(--accent-soft); color: var(--ink); }
+
+@media (max-width: 560px) {
+  :root { --page-gutter: 20px; }
+}
+
+#wrapper { min-height: 100vh; padding-top: 74px; background: var(--canvas) !important; }
+#wrapper .sidebar.bg-gradient-primary { background: var(--nav) !important; }
+#wrapper .sidebar .sidebar-brand { min-height: 80px; border-bottom: 1px solid rgba(255,255,255,.1); }
+#wrapper .sidebar .nav-item { margin: 3px 9px; border-radius: 10px; transition: background .2s; }
+#wrapper .sidebar .nav-item:hover, #wrapper .sidebar .nav-item.active { background: rgba(255,255,255,.1); }
+#wrapper .sidebar .nav-item .nav-link { padding: 13px 15px; color: #d6e7e3; }
+#wrapper .sidebar .nav-item .nav-link i { color: #71cab9; }
+#wrapper .sidebar .sidebar-divider { border-top-color: rgba(255,255,255,.12); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
